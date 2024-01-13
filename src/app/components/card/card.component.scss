@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  width: 200px;
+  margin: 16px;
+  background-color: grey;
+}
+
+.card-image {
+  object-fit: cover;
+  height: 120px;
+  width: 100%;
+}
+
+.card-title,
+.card-subtitle {
+  padding: 8px;
+  text-align: center;
+  color: white;
+}
+
+span {
+  color: white;
+}
