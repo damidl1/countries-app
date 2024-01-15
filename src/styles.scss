@@ -1,11 +1,17 @@
+
+
 html,
 body {
   height: 100%;
   overflow: scroll;
-  background-color: #A6A2A2;
+  background: linear-gradient(to bottom, #3498db, #ffffff);
 }
 
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+label{
+  color: white;
 }
