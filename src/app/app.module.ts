@@ -14,13 +14,15 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './components/card/card.component';
 import { CountriesListComponent } from './components/countries-list/countries-list.component';
 import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
     CountriesListComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
